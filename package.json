@@ -1,0 +1,19 @@
+{
+  "name": "bun-ssr",
+  "module": "src/server.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "hono": "^4.4.13",
+    "i18xs": "^1.4.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
